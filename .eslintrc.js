@@ -36,8 +36,10 @@ module.exports = {
     "no-underscore-dangle": "off",
     "camelcase": "off",
     "no-console": ["error", { allow: ["tron"] }],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
+
+    // "react-hooks/rules-of-hooks": "error",
+    // "react-hooks/exhaustive-deps": "warn",
+
     "import/no-extraneous-dependencies": ["error",  {"devDependencies": true}],
     "react/jsx-props-no-spreading": "off",
     "jsx-a11y/label-has-associated-control": "off",
